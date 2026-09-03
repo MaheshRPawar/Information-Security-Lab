@@ -19,13 +19,7 @@ Each practical is organized in a separate folder and includes:
 ```text
 Information-Security-Lab/
 │
-├── README.md
-│
-├── Practical-01/
-├── Practical-02/
-├── Practical-03/
 ├── Practical-04/
-├── Practical-05/
 ├── Practical-06/
 ├── Practical-07/
 ├── Practical-08/
@@ -58,7 +52,6 @@ Practical-XX/
 | Practical 05 | Implementation of RSA Algorithm |
 | Practical 06 | Implementation of Diffie-Hellman Key Exchange Algorithm |
 | Practical 07 | Applications of Authentication Functions/Algorithms – MessageDigest5 (MD5) / Secure Hash Algorithm 1 (SHA-1) |
-| Practical 08 | Implementation of PGP Operations Using GnuPG Command Line |
 | Practical 09 | Implementation of Secure Email Communication using Pretty Good Privacy (PGP) by generating cryptographic keys, encrypting/decrypting emails, and creating/verifying digital signatures |
 | Practical 09* | Network Traffic Analysis Tool (Ethereal / Wireshark) |
 | Practical 10 | Identification of Non-Cryptographic Protocol Vulnerabilities – Honeypot, DoS, Buffer Overflow Attack, and SQL Injection |
@@ -81,24 +74,16 @@ Practical-XX/
 - Well-structured practical folders
 - Beginner-friendly Java implementations
 - Simple and easy-to-understand code
-- Short theory and concept explanations
 - Step-by-step algorithms and procedures
 - Compile and run instructions
 - Sample outputs
-- Viva-friendly programs
 - Suitable for academic reference and revision
-
 ---
 
 ## Purpose
 
 This repository has been created to:
-
-- Perform Information Security Laboratory practicals
-- Understand cryptographic and security techniques
-- Implement the required algorithms and programs
 - Prepare for practical examinations and viva voce
-- Maintain organized laboratory work
 - Provide a structured reference for Java implementations
 - Support learning and revision of Information Security concepts
 
@@ -108,19 +93,16 @@ This repository has been created to:
 
 Each practical is developed and maintained according to the laboratory manual and follows a simple workflow:
 
-```
 Learn
 	↓
 Understand the Concept
 	↓
 Perform the Practical
-	↓
 Test with Different Inputs
 	↓
 Document the Work
 	↓
 Prepare for Viva
-```
 
 The programs are kept simple, readable, and beginner-friendly so that the working of each practical can be understood and explained during practical examinations.
 
