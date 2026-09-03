@@ -1,14 +1,14 @@
 # Information Security Laboratory
 
-This repository contains Java implementations of practical experiments performed as part of the **Information Security Laboratory** course.
+This repository contains Java implementations and practical work performed as part of the **Information Security Laboratory** course.
 
-The experiments cover classical and modern cryptographic techniques, including encryption algorithms, hashing, authentication mechanisms, digital signatures, key exchange protocols, and secure communication.
+The experiments cover cryptographic algorithms, hashing, authentication, key exchange, PGP, secure communication, network traffic analysis, protocol vulnerabilities, software vulnerabilities, and cybersecurity concepts.
 
 Each practical is organized in a separate folder and includes:
 
 - Java source code
 - Theory and concept explanation
-- Algorithm
+- Algorithm or procedure
 - Compile and run instructions
 - Sample output
 
@@ -38,7 +38,7 @@ Information-Security-Lab/
 
 Each practical folder contains:
 
-```text
+```
 Practical-XX/
 │
 ├── Java Program(s)
@@ -50,20 +50,23 @@ Practical-XX/
 ## Practical List
 
 | Practical No. | Experiment |
-|---------------|------------|
-| Practical 01 | GCD & LCM using Euclidean Algorithm, Modular Arithmetic |
-| Practical 02 | Caesar Cipher, Playfair Cipher |
-| Practical 03 | Hill Cipher |
-| Practical 04 | Rail Fence Cipher / Columnar Transposition Cipher |
-| Practical 05 | DES (Data Encryption Standard) |
-| Practical 06 | RSA Algorithm |
-| Practical 07 | Diffie-Hellman Key Exchange |
-| Practical 08 | Digital Signature |
-| Practical 09 | SHA-1 Hashing |
-| Practical 10 | Kerberos Authentication |
-| Practical 11 | Pretty Good Privacy (PGP) |
-| Practical 12 | Secure/Multipurpose Internet Mail Extensions (S/MIME) |
-| Practical 13 | Secure Sockets Layer / Transport Layer Security (SSL/TLS) |
+|---|---|
+| Practical 01 | Implementation of any one of the following: GCD and LCM using Euclidean Algorithm / Modular Arithmetic Operations (Add, Sub, Mult, Div) |
+| Practical 02 | Implementation of Substitution Technique – Caesar Cipher / Playfair Cipher |
+| Practical 03 | Implementation of Transposition Technique – Rail Fence / Transposition |
+| Practical 04 | Implementation of Single Round of DES Algorithm |
+| Practical 05 | Implementation of RSA Algorithm |
+| Practical 06 | Implementation of Diffie-Hellman Key Exchange Algorithm |
+| Practical 07 | Applications of Authentication Functions/Algorithms – MessageDigest5 (MD5) / Secure Hash Algorithm 1 (SHA-1) |
+| Practical 08 | Implementation of PGP Operations Using GnuPG Command Line |
+| Practical 09 | Implementation of Secure Email Communication using Pretty Good Privacy (PGP) by generating cryptographic keys, encrypting/decrypting emails, and creating/verifying digital signatures |
+| Practical 09* | Network Traffic Analysis Tool (Ethereal / Wireshark) |
+| Practical 10 | Identification of Non-Cryptographic Protocol Vulnerabilities – Honeypot, DoS, Buffer Overflow Attack, and SQL Injection |
+| Practical 11 | Write a Program for Secure Socket Layer (SSL) Protocol Simulation |
+| Practical 12 | Experiment with Software Vulnerability Tools and Their Analysis (Rootkit / Anyother) |
+| Practical 13 | Demonstration / Case Study / Experimentation – Secure Software Development, SASE, Zero Trust Architecture, Cyber Security Compliance and Industry Standards |
+
+> **Note:** The official laboratory list contains two experiments numbered **09**. The numbering is retained as provided in the laboratory manual.
 
 ---
 
@@ -77,8 +80,9 @@ Practical-XX/
 
 - Well-structured practical folders
 - Beginner-friendly Java implementations
-- Theory and concept explanation
-- Step-by-step algorithms
+- Simple and easy-to-understand code
+- Short theory and concept explanations
+- Step-by-step algorithms and procedures
 - Compile and run instructions
 - Sample outputs
 - Viva-friendly programs
@@ -91,10 +95,34 @@ Practical-XX/
 This repository has been created to:
 
 - Perform Information Security Laboratory practicals
-- Understand classical and modern cryptographic algorithms
+- Understand cryptographic and security techniques
+- Implement the required algorithms and programs
 - Prepare for practical examinations and viva voce
+- Maintain organized laboratory work
 - Provide a structured reference for Java implementations
 - Support learning and revision of Information Security concepts
+
+---
+
+## Practical Approach
+
+Each practical is developed and maintained according to the laboratory manual and follows a simple workflow:
+
+```
+Learn
+	↓
+Understand the Concept
+	↓
+Perform the Practical
+	↓
+Test with Different Inputs
+	↓
+Document the Work
+	↓
+Prepare for Viva
+```
+
+The programs are kept simple, readable, and beginner-friendly so that the working of each practical can be understood and explained during practical examinations.
 
 ---
 
